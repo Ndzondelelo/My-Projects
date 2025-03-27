@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasi Chess Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Kasi Chess Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Kasi Chess Club</h2>
+            <p>Welcome to Kasi Chess Club, a community for chess enthusiasts of all levels. Whether you are a beginner or a grandmaster, our club offers a friendly and competitive environment to enjoy the game.</p>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Monthly Chess Tournament - September 25, 2024</li>
+                <li>Beginner Chess Workshop - October 10, 2024</li>
+                <li>Simultaneous Exhibition Match - November 5, 2024</li>
+            </ul>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="images/event1.jpg" alt="Event 1">
+                <img src="images/event2.jpg" alt="Event 2">
+                <img src="images/event3.jpg" alt="Event 3">
+                <img src="images/event4.jpg" alt="Event 4">
+            </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section id="membership">
+            <h2>Become a Member</h2>
+            <p>Join our club to participate in exclusive tournaments, workshops, and social events. Membership is open to all ages and skill levels.</p>
+            <button>Join Now</button>
+        </section>
+
+        <!-- Event Registration Form Section -->
+        <section id="register">
+            <h2>Register for an Event</h2>
+            <form id="registration-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <select name="event" required>
+                    <option value="">Select Event</option>
+                    <option value="tournament">Monthly Chess Tournament</option>
+                    <option value="workshop">Beginner Chess Workshop</option>
+                    <option value="exhibition">Simultaneous Exhibition Match</option>
+                </select>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Kasi Chess Club. All rights reserved. | Designed by Chess Enthusiasts</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
